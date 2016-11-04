@@ -1,0 +1,4 @@
+services:
+    fys.dt.handle_request:
+        class: Fys\DatatableBundle\Handler\RequestHandler
+        arguments: ["@doctrine.orm.entity_manager"]
