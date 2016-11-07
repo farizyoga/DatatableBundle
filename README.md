@@ -1,6 +1,22 @@
 # Datatable Bundle for Symfony #
 Datatable Bundle provides you a capabilitiy to handle Server Side Processing Datatables
 
+## Installation ##
+
+install via composer
+
+```
+composer require fys/datatable-bundle
+```
+
+activate the bundle in AppKernel.php
+
+```
+$bundles = [
+    ....
+    new FYS\DatatableBundle\FYSDatatableBundle(),
+]
+```
 ## Creating your first Datatable Server Side ##
 lets say you have an entity class like this
 
