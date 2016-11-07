@@ -1,6 +1,6 @@
 <?php
 
-namespace Fys\DatatableBundle\DependencyInjection;
+namespace FYS\DatatableBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

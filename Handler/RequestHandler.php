@@ -1,6 +1,6 @@
 <?php
 
-namespace Fys\DatatableBundle\Handler;
+namespace FYS\DatatableBundle\Handler;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\HttpFoundation\Request;
