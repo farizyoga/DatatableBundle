@@ -1,0 +1,11 @@
+{
+    "name": "fys/datatable-bundle",
+    "description": "provide datatable server side request easily",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "FYS\\DatatableBundle\\": "" }
+    }
+}

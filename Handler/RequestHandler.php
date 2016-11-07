@@ -15,7 +15,6 @@ class RequestHandler
     public $orderBy;
     public $start;
     public $length;
-    public $draw;
     public $columns = array();
 
     /**
@@ -90,6 +89,5 @@ class RequestHandler
         $this->orderBy = $this->columns[$orderDirKey];
         $this->start = $post->get('start');
         $this->length = $post->get('length');
-        $this->draw = $post->get('draw');
     }
 }
